@@ -1,0 +1,44 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*----- ヘッダー -----*/
+ul {
+  display: flex;
+}
+ul li {
+  flex-direction: row;
+}
+
+.site-title {
+  color: aqua;
+  text-align: center;
+}
+
+#header img {
+  max-width: 1000px;
+  padding: 0 0 0 0;
+}
+/*# sourceMappingURL=style.css.map */
