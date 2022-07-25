@@ -22,7 +22,7 @@ a {
     text-decoration: none;
     color: #FFFFFF;
 }
-/*----- ヘッダー -----*/
+//ヘッダー
 #header {
     width: 100%;
     min-height: 100vh;
@@ -42,6 +42,10 @@ a {
         filter: drop-shadow(15px 1px 5px );
     }
 }
+#header .nav-li li a:hover {
+	color: red; 	/*リンクにマウスが乗ったら背景色を変更する*/
+}
+
 .site-title {
     display: flex;
     justify-content: center;
@@ -50,7 +54,14 @@ a {
     top: 45%;
     left: 0;
     right: 0;
-    filter: drop-shadow(15px 1px 5px );
 }
+
+//メニュー
+.coffee-content {
+    display: inline-block;
+    justify-content: center;
+
+}
+
 
 /*----- location -----*/
