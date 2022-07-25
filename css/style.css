@@ -62,6 +62,31 @@ a {
   right: 0;
 }
 
+#menu .sec-box {
+  background-image: url(../img/menu.jpg);
+  height: 300px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#menu .sec-box h2 {
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#menu .sec-box {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.background-1 {
+  background-image: url(../img/menu.jpg);
+}
+
 .coffee-content {
   display: inline-block;
   justify-content: center;
