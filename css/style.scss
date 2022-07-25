@@ -76,15 +76,76 @@ a {
     background-size: cover;
     background-position: center;
   }
-   
-  .background-1 {
-    background-image: url(../img/menu.jpg);
-  }
-   
-.coffee-content {
-    display: inline-block;
+      
+.menu-wrapper {
+    display: flex;
     justify-content: center;
+}
+.coffee-content {
+    width: 50%;
+    display: block;
+    .sub-title {
+        text-align: center;
+        padding-top: 96px;
+        .coffee-detail {
+            display: flex;
+            flex-wrap: wrap;
+            dt {
+                width: 85%;
+            }
+        }
+    }
 }
 
 
+.food-content {
+    width: 50%;
+    display: block;
+    .sub-title {
+        text-align: center;
+        padding-top: 96px;
+    }
+}
+
+// about
+#about .sec-box {
+    background-image: url(../img/about.jpg);
+    height: 300px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        width: 100%;
+        color: #FFFFFF;
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+#about .sec-box {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+
 /*----- location -----*/
+#location .sec-box {
+    background-image: url(../img/location.jpg);
+    height: 300px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        width: 100%;
+        color: #FFFFFF;
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+#location .sec-box {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }

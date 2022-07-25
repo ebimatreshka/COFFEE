@@ -83,13 +83,32 @@ a {
   background-position: center;
 }
 
-.background-1 {
-  background-image: url(../img/menu.jpg);
+.menu-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .coffee-content {
-  display: inline-block;
-  justify-content: center;
+  width: 50%;
+  display: block;
+}
+.coffee-content .sub-title {
+  text-align: center;
+}
+.coffee-content .sub-title .coffee-detail {
+  display: flex;
+  flex-wrap: wrap;
+}
+.coffee-content .sub-title .coffee-detail dt {
+  width: 85%;
+}
+
+.food-content {
+  width: 50%;
+  display: block;
+}
+.food-content .sub-title {
+  text-align: center;
 }
 
 /*----- location -----*/
