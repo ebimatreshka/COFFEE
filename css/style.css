@@ -1,9 +1,4 @@
 @charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-}
-
 html {
   font-size: 100%;
 }
@@ -67,8 +62,6 @@ a {
   height: 300px;
   margin-top: 15px;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 #menu .sec-box h2 {
   width: 100%;
@@ -85,31 +78,125 @@ a {
 
 .menu-wrapper {
   display: flex;
-  justify-content: center;
+  padding: 90px 16px 150px 16px;
+}
+
+.coffee-detail {
+  display: flex;
+  flex-wrap: wrap;
+}
+.coffee-detail dt {
+  width: 87%;
+  line-height: 21px;
+  padding-top: 30px;
+}
+.coffee-detail dd {
+  width: 13%;
+  line-height: 21px;
+  padding-top: 30px;
 }
 
 .coffee-content {
   width: 50%;
-  display: block;
+  padding: 0 35px;
 }
-.coffee-content .sub-title {
-  text-align: center;
-}
-.coffee-content .sub-title .coffee-detail {
-  display: flex;
-  flex-wrap: wrap;
-}
-.coffee-content .sub-title .coffee-detail dt {
-  width: 85%;
+
+.sub-title {
+  display: inline-block;
+  margin: auto;
+  border-bottom: solid 7px red;
 }
 
 .food-content {
   width: 50%;
+  padding: 90px 16px 150px 16px;
   display: block;
 }
 .food-content .sub-title {
   text-align: center;
+  margin-bottom: 40px;
+}
+
+.food-detail {
+  display: flex;
+  flex-wrap: wrap;
+}
+.food-detail dt {
+  width: 87%;
+  line-height: 21px;
+  padding-top: 30px;
+}
+.food-detail dd {
+  width: 13%;
+  line-height: 21px;
+  padding-top: 30px;
+}
+
+.other-content {
+  width: 100%;
+  padding: 90px 16px 150px 16px;
+  display: block;
+}
+.other-content .sub-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.other-detail {
+  display: flex;
+  flex-wrap: wrap;
+}
+.other-detail dt {
+  width: 87%;
+  line-height: 21px;
+  padding-top: 30px;
+}
+.other-detail dd {
+  width: 13%;
+  line-height: 21px;
+  padding-top: 30px;
+}
+
+#about .sec-box {
+  background-image: url(../img/about.jpg);
+  height: 300px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about .sec-box h2 {
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#about .sec-box {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 /*----- location -----*/
+#location .sec-box {
+  background-image: url(../img/location.jpg);
+  height: 300px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#location .sec-box h2 {
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#location .sec-box {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
 /*# sourceMappingURL=style.css.map */

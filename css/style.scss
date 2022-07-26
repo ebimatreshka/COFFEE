@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-* {
-    margin: 0;
-    padding: 0;
-}
 html {
     font-size: 100%;
 }
@@ -62,8 +58,6 @@ a {
     height: 300px;
     margin-top: 15px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     h2 {
         width: 100%;
         color: #FFFFFF;
@@ -75,37 +69,89 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-  }
-      
+  }//画面固定
+
+
+
 .menu-wrapper {
     display: flex;
-    justify-content: center;
+    padding: 90px 16px 150px 16px;
 }
-.coffee-content {
-    width: 50%;
-    display: block;
-    .sub-title {
-        text-align: center;
-        padding-top: 96px;
-        .coffee-detail {
-            display: flex;
-            flex-wrap: wrap;
-            dt {
-                width: 85%;
-            }
-        }
+
+.coffee-detail {
+    display: flex;
+    flex-wrap: wrap;
+    dt {
+        width: 87%;
+        line-height: 21px;
+        padding-top: 30px;
+    }
+    dd {
+        width: 13%;
+        line-height: 21px;
+        padding-top: 30px;
     }
 }
 
+.coffee-content {
+    width: 50%;
+    padding: 0 35px;
+}    
+.sub-title {
+    display: inline-block;
+    margin: auto;
+    border-bottom: solid 7px red;
+}
 
 .food-content {
     width: 50%;
+    padding: 90px 16px 150px 16px;
     display: block;
     .sub-title {
         text-align: center;
-        padding-top: 96px;
+        margin-bottom: 40px;
     }
 }
+.food-detail {
+    display: flex;
+    flex-wrap: wrap;
+    dt {
+        width: 87%;
+        line-height: 21px;
+        padding-top: 30px;
+    }
+    dd {
+        width: 13%;
+        line-height: 21px;
+        padding-top: 30px;
+    }
+}
+.other-content {
+    width: 100%;
+    padding: 90px 16px 150px 16px;
+    display: block;
+    .sub-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+.other-detail {
+    display: flex;
+    flex-wrap: wrap;
+    dt {
+        width: 87%;
+        line-height: 21px;
+        padding-top: 30px;
+    }
+    dd {
+        width: 13%;
+        line-height: 21px;
+        padding-top: 30px;
+    }
+}
+
+
 
 // about
 #about .sec-box {
@@ -126,7 +172,7 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-  }
+}
 
 
 /*----- location -----*/
