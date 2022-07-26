@@ -50,6 +50,9 @@ a {
     top: 45%;
     left: 0;
     right: 0;
+    img {
+        height: 128px;
+    }
 }
 
 //メニュー
@@ -58,10 +61,13 @@ a {
     height: 300px;
     margin-top: 15px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
     h2 {
         width: 100%;
         color: #FFFFFF;
-        font-size: 3rem;
+        font-size: 5rem;
         text-align: center;
     }
 }
@@ -76,15 +82,18 @@ a {
 .menu-wrapper {
     display: flex;
     padding: 90px 16px 150px 16px;
+    margin: 0 30px;
 }
 
 .coffee-detail {
     display: flex;
     flex-wrap: wrap;
+    text-align: left;
     dt {
         width: 87%;
-        line-height: 21px;
+        line-height: 31px;
         padding-top: 30px;
+        border-bottom: dashed 0.5px;
     }
     dd {
         width: 13%;
@@ -95,30 +104,40 @@ a {
 
 .coffee-content {
     width: 50%;
-    padding: 0 35px;
+    padding: 0 0 0 35px;
+    text-align: center;
+    border-right: solid 1.35px black;
 }    
 .sub-title {
     display: inline-block;
-    margin: auto;
+    margin: 0 0 70px 0;
+    padding-bottom: 5px;
     border-bottom: solid 7px red;
+    font-size: 3rem
 }
 
 .food-content {
     width: 50%;
-    padding: 90px 16px 150px 16px;
+    padding: 0 35px;
     display: block;
+    text-align: center;
+    padding: 0 0 0 35px;
     .sub-title {
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 0 0 70px 0;
     }
 }
 .food-detail {
     display: flex;
     flex-wrap: wrap;
+    text-align: left;
+
     dt {
         width: 87%;
-        line-height: 21px;
+        line-height: 31px;
         padding-top: 30px;
+        border-bottom: dashed 0.5px;
+
     }
     dd {
         width: 13%;
@@ -128,21 +147,25 @@ a {
 }
 .other-content {
     width: 100%;
-    padding: 90px 16px 150px 16px;
+    padding: 108px 0 0 0;
     display: block;
     .sub-title {
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 0 0 70px 0;
     }
 }
 
 .other-detail {
     display: flex;
     flex-wrap: wrap;
+    text-align: left;
+
     dt {
         width: 87%;
-        line-height: 21px;
+        line-height: 31px;
         padding-top: 30px;
+        border-bottom: dashed 0.5px;
+
     }
     dd {
         width: 13%;
@@ -164,7 +187,7 @@ a {
     h2 {
         width: 100%;
         color: #FFFFFF;
-        font-size: 3rem;
+        font-size: 5rem;
         text-align: center;
     }
 }
@@ -186,7 +209,7 @@ a {
     h2 {
         width: 100%;
         color: #FFFFFF;
-        font-size: 3rem;
+        font-size: 5rem;
         text-align: center;
     }
 }
