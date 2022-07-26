@@ -216,8 +216,7 @@ a {
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
-
-li {
+.coffee-text ul li {
   width: 50%;
   line-height: 2.2;
   text-align: left;
@@ -252,7 +251,24 @@ li {
 }
 
 .location-content {
-  padding: 110px 16px 0 16px;
+  padding: 110px 16px 200px 16px;
   text-align: center;
+}
+
+#location .item-map {
+  width: 100%;
+}
+
+.item-info {
+  text-align: left;
+  font-size: 1.2rem;
+}
+.item-info p {
+  margin-bottom: 30px;
+}
+
+#footer p {
+  display: flex;
+  justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

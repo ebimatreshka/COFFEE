@@ -209,18 +209,18 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 50px;
-}
     li {
         width: 50%;
         line-height: 2.2;
         text-align: left;
         padding: 20px;
     }
+}
 
 .span{
     color: black;
-
 }
+
 
 /*----- location -----*/
 #location .sec-box {
@@ -244,6 +244,23 @@ a {
     background-position: center;
   }
 .location-content {
-    padding: 110px 16px 0 16px;
+    padding: 110px 16px 200px 16px;
     text-align: center;
+}
+
+#location .item-map {
+    width: 100%;
+}
+.item-info {
+    text-align: left;
+    font-size: 1.2rem;
+    p {
+        margin-bottom: 30px;
+    }
+}
+
+//フッター
+#footer p {
+    display: flex;
+    justify-content: center;
 }
