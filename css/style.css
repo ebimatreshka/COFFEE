@@ -204,6 +204,30 @@ a {
   background-position: center;
 }
 
+.about-content {
+  padding: 110px 16px 0 16px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.coffee-text ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+li {
+  width: 50%;
+  line-height: 2.2;
+  text-align: left;
+  padding: 20px;
+}
+
+.span {
+  color: black;
+}
+
 /*----- location -----*/
 #location .sec-box {
   background-image: url(../img/location.jpg);
@@ -225,5 +249,10 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+}
+
+.location-content {
+  padding: 110px 16px 0 16px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
