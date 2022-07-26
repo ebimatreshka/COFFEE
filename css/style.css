@@ -223,10 +223,6 @@ a {
   padding: 20px;
 }
 
-.span {
-  color: black;
-}
-
 /*----- location -----*/
 #location .sec-box {
   background-image: url(../img/location.jpg);
