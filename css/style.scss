@@ -8,8 +8,9 @@ body {
     max-width: 100%;
     padding: 0 16px 0 16px;
 }
-img 
-{ max-width: 100%;
+img {
+    max-width: 100%;
+    height: 132px;
 }
 ul {
     list-style: none;
@@ -61,8 +62,9 @@ a {
     h2 {
         width: 100%;
         color: #FFFFFF;
-        font-size: 3rem;
+        font-size: 5rem;
         text-align: center;
+        margin: auto;
     }
 }
 #menu .sec-box {
@@ -172,8 +174,9 @@ a {
     h2 {
         width: 100%;
         color: #FFFFFF;
-        font-size: 3rem;
+        font-size: 5rem;
         text-align: center;
+        margin: auto;
     }
 }
 #about .sec-box {
@@ -194,8 +197,9 @@ a {
     h2 {
         width: 100%;
         color: #FFFFFF;
-        font-size: 3rem;
+        font-size: 5rem;
         text-align: center;
+        margin: auto;
     }
 }
 #location .sec-box {
