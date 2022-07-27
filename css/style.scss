@@ -107,7 +107,7 @@ a {
 
 .coffee-content {
     width: 50%;
-    padding: 0 0 0 35px;
+    padding: 0 35px;
     border-right: solid 1.4px black;
 }
    
@@ -150,7 +150,7 @@ a {
 }
 .other-content {
     width: 100%;
-    padding: 110px 0 0 0;
+    padding: 137px 0 0 0;
     display: block;
     .sub-title {
         text-align: center;
@@ -321,6 +321,7 @@ a {
 .item-info {
     text-align: left;
     font-size: 1.2rem;
+    margin-top: 20px;
     p {
         margin-bottom: 30px;
     }
@@ -357,6 +358,7 @@ iframe {
     #menu .menu-wrapper {
         display: block;
         margin: 0 auto;
+        padding: 15px 16px 0 16px;
         .coffee-content {
             width: 100%;
             border-right: none;
@@ -366,12 +368,16 @@ iframe {
         }
         .other-content {
             width: 100%;
+            padding: 15px;
         }
     }
     #menu {
         .sub-title {
             margin-top: 30px;
         }
+    }
+    #about .about-content {
+        padding-top: 45px;
     }
     #about .coffee-text ul {
         width: 100%;
@@ -382,6 +388,12 @@ iframe {
         }
     }    
     #location .location-content {
+        padding-top: 45px;
         padding-bottom: 80px;
+    }
+    #menu .sub-title,
+    #about .sub-title,
+    #location .sub-title {
+        font-size: 1.8rem;
     }
 }
