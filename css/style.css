@@ -20,7 +20,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: #FFFFFF;
 }
 
 #header {
@@ -42,6 +41,9 @@ a {
   font-size: 21px;
   font-weight: bold;
   filter: drop-shadow(15px 1px 5px);
+}
+#header .nav-li li a {
+  color: #ffffff;
 }
 
 #header .nav-li li a:hover {
@@ -223,6 +225,73 @@ a {
   padding: 20px;
 }
 
+#about .btn {
+  width: 160px;
+  height: 50px;
+  line-height: 3.5;
+  display: inline-block;
+  color: #000;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+#about .btn span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+.btn::before右の赤線
+.btn::after下の赤線*/
+#about .btn::before,
+#about .btn::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #e03131;
+  transition: all 0.3s ease;
+}
+
+/*
+.btn span::before左の赤線
+.btn span::after上の赤線*/
+#about .btn span::before,
+#about .btn span::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #e03131;
+  transition: all 0.3s ease;
+}
+
+#about .btn::before,
+#about .btn span::before {
+  width: 2px;
+  height: 50%;
+}
+
+#about .btn::after,
+#about .btn span::after {
+  width: 20%;
+  height: 2px;
+}
+
+#about .btn:hover::before,
+#about .btn span:hover::before {
+  height: 100%;
+}
+
+#about .btn:hover::after,
+#about .btn span:hover::after {
+  width: 100%;
+}
+
 /*----- location -----*/
 #location .sec-box {
   background-image: url(../img/location.jpg);
@@ -263,14 +332,23 @@ a {
   margin-bottom: 30px;
 }
 
-#footer p {
-  display: flex;
-  justify-content: center;
-}
-
 iframe {
   width: 100%;
   height: 500px;
   filter: grayscale(100%);
+}
+
+#footer p {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .site-title {
+    top: 42%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
