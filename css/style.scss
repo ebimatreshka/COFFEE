@@ -150,7 +150,7 @@ a {
 }
 .other-content {
     width: 100%;
-    padding: 136px 0 0 0;
+    padding: 110px 0 0 0;
     display: block;
     .sub-title {
         text-align: center;
@@ -206,7 +206,8 @@ a {
     margin-bottom: 100px;
     text-align: center;
 }
-.coffee-text ul {
+#about .coffee-text ul {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -344,4 +345,40 @@ iframe {
         max-width: 80%;
         margin: 0 auto;
     }
-}    
+    #menu .sec-box,
+    #about .sec-box,
+    #location .sec-box {
+        height: 94px;
+        background-attachment: scroll;
+    }
+    #menu .menu-wrapper {
+        display: block;
+        margin: 0 auto;
+        .coffee-content {
+            width: 100%;
+            border-right: none;
+        }
+        .food-content {
+            width: 100%;
+        }
+        .other-content {
+            width: 100%;
+        }
+    }
+    #menu {
+        .sub-title {
+            margin-top: 30px;
+        }
+    }
+    #about .coffee-text ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            width: 100%;
+        }
+    }    
+    #location .location-content {
+        padding-bottom: 80px;
+    }
+}

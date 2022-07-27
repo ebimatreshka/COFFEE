@@ -156,7 +156,7 @@ a {
 
 .other-content {
   width: 100%;
-  padding: 136px 0 0 0;
+  padding: 110px 0 0 0;
   display: block;
 }
 .other-content .sub-title {
@@ -212,13 +212,14 @@ a {
   text-align: center;
 }
 
-.coffee-text ul {
+#about .coffee-text ul {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
-.coffee-text ul li {
+#about .coffee-text ul li {
   width: 50%;
   line-height: 2.2;
   text-align: left;
@@ -349,6 +350,40 @@ iframe {
     top: 42%;
     max-width: 80%;
     margin: 0 auto;
+  }
+  #menu .sec-box,
+#about .sec-box,
+#location .sec-box {
+    height: 94px;
+    background-attachment: scroll;
+  }
+  #menu .menu-wrapper {
+    display: block;
+    margin: 0 auto;
+  }
+  #menu .menu-wrapper .coffee-content {
+    width: 100%;
+    border-right: none;
+  }
+  #menu .menu-wrapper .food-content {
+    width: 100%;
+  }
+  #menu .menu-wrapper .other-content {
+    width: 100%;
+  }
+  #menu .sub-title {
+    margin-top: 30px;
+  }
+  #about .coffee-text ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #about .coffee-text ul li {
+    width: 100%;
+  }
+  #location .location-content {
+    padding-bottom: 80px;
   }
 }
 /*# sourceMappingURL=style.css.map */
